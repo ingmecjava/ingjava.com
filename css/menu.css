@@ -39,7 +39,9 @@ header label{
 .menu a:hover{
     background: rgba(255,255,255,0.3);
 }
-
+.menu .current {
+    background:gray;
+}
 #menu-bar:checked ~ .menu{
     transform: translateX(0%);
 }
