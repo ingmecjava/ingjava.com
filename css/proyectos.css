@@ -1,0 +1,22 @@
+#proyectos h2, h3, h4{
+    text-align: center;
+}
+
+#proyectos .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#proyectos article{
+    margin: 30px;
+    text-align: center;
+}
+
+#proyectos img{
+    width: 100%;
+    max-width: 880px;
+    
+    
+}
+

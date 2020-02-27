@@ -1,0 +1,130 @@
+#referencias h2, h3, h4{
+    text-align: center;
+}
+#referencias2 h2, h3, h4{
+    text-align: center;
+    
+}
+.referencias-partner h2, h3, h4{
+    text-align: center;
+}
+.referencias2-partner h2, h3, h4{
+    text-align: center;
+}
+.referencias-partner h3{
+    font-size: 16px;  
+}
+.referencias2-partner h3{
+    font-size: 16px;  
+}
+#referencias .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.referencias-partner{
+    margin: 10px;
+    width: auto;
+}
+#referencias article{
+    margin: 15px;
+    text-align: center;
+}
+
+.referencias-partner img{
+    width: 300px;
+    height: 300px;
+}
+.referencias2-partner img{
+    width: auto;
+    height: auto;
+}
+.referencias-partner video{
+    width: 480px;
+    height: 240px;
+}
+#referencias img{
+    width: 200px;
+    height: 180px;
+}
+
+#referencias2 img{
+    width: 480px;
+    height: 200px;
+}
+#referencias2 h3{
+    font-size: 15px;  
+}
+#referencias2 .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width:520px){
+    #referencias2{
+    margin: 10px;
+    width: auto;  
+        
+    }
+    #referencias2 img{
+    width: 550px;
+    height: 200px;
+    padding: 6px;
+    }
+    #referencias2 h3{
+    font-size: 15px;  
+}
+    .referencias-partner video{
+    width: 500px;
+    height: 280px;
+    }
+    .referencias-partner h3{
+    font-size: 26px;  
+    }
+}
+@media (min-width:780px){
+    #referencias2{
+    margin: 10px;
+    width: auto;  
+        
+    }
+    #referencias2 img{
+    width: 720px;
+    height: 260px;
+    padding: 6px;
+    }
+    #referencias2 h3{
+    font-size: 18px;  
+}
+    .referencias-partner video{
+    width: 680px;
+    height: 340px;
+    }
+    .referencias-partner h3{
+    font-size: 18px;  
+    }
+}
+@media (min-width:1024px){
+    #referencias2{
+    margin: 10px;
+    width: auto;  
+        
+    }
+    #referencias2 img{
+    width: 1000px;
+    height: 320px;
+    padding: 6px;
+    
+    }
+    #referencias2 h3{
+    font-size: 20px;  
+}
+    .referencias-partner video{
+    width: 880px;
+    height: 380px;
+    }
+    .referencias-partner h3{
+    font-size: 20px;  
+    }
+}

@@ -1,0 +1,97 @@
+#servicios{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+
+}
+
+#servicios h3{
+    margin: 10px;
+}
+
+#servicios .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicios-partner{
+    margin: 10px;
+    width: 80%;
+    
+}
+
+.servicios-partner img{
+    width: 220px;
+    height: 220px;
+    border-radius: 5%;
+    border: 2px solid #fff;
+    padding: 3px;
+    
+}
+
+#servicios video{
+    width: 380px;
+    height: 220px;
+    border-radius: 5%;
+    border: 2px solid #fff;
+    padding: 3px;
+    
+}
+.servicios-partner h4{
+    margin-bottom: 15px;
+}
+
+#servicios a{
+    display: block;
+    text-decoration: sub;
+    padding: 5px;
+    
+    text-align: center;
+    color: white;
+    
+}
+
+@media (min-width:520px){
+    .servicios-partner{
+        width: auto;
+        
+    }
+    .servicios-partner img{
+    width: 210px;
+    height: 210px;
+    }
+    #servicios video{
+    width: 380px;
+    height: 220px;
+    }
+}
+@media (min-width:780px){
+    .servicios-partner{
+        width: auto;
+        
+    }
+    .servicios-partner img{
+    width: 230px;
+    height: 230px;
+    }
+    #servicios video{
+    width: 380px;
+    height: 220px;
+    }
+}
+@media (min-width:1024px){
+    .servicios-partner{
+        width: auto;
+        
+    }
+    .servicios-partner img{
+    width: 280px;
+    height: 280px;
+    }
+    #servicios video{
+    width: 500px;
+    height: 300px;
+    }
+}

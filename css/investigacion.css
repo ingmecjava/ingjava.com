@@ -1,0 +1,21 @@
+#investigacion h2, h3, h4{
+    text-align: center;
+}
+
+#investigacion .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#investigacion article{
+    margin: 0px;
+    text-align: center;
+}
+
+#investigacion img{
+    width: 100%;
+    max-width: 800px;
+    
+    
+}
